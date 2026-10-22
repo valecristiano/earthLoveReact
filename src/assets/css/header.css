@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 1px solid #e8e8e8;
+  position: sticky;
+}
+
+.header .logo {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2f6f3e;
+}
+
+.header .navLink {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1b4525;
+}
+
+.header .navLink:hover {
+  color: #2f6f3e;
+}
